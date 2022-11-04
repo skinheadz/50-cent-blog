@@ -99,6 +99,8 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   font-family: "Dank Mono", ui-monospace, monospace;
   display: grid;
   place-content: center;
@@ -114,6 +116,8 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   font-family: "Dank Mono", ui-monospace, monospace;
   display: grid;
   place-content: center;
@@ -127,7 +131,8 @@
     rgb(23, 21, 21) 47%,
     rgb(255, 156, 156)
   );
-  -webkit-background-clip: border-box;
+  -webkit-background-clip: border-box;  
+  background-clip: border-box;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
